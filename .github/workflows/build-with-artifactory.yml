@@ -29,4 +29,4 @@ jobs:
       - name: PIP install
         run: |
           jf pipc --repo-resolve=fg-pypi
-          jf pip install
+          jf pip install -r requirements.txt
