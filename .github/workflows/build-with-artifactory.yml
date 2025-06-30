@@ -28,5 +28,5 @@ jobs:
 
       - name: PIP install
         run: |
-          jf pipc --repo-resolve fg-pypi
+          jf pipc --repo-resolve=fg-pypi
           jf pip install
